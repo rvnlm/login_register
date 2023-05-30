@@ -1,0 +1,162 @@
+body {
+  font-family: "Open Sans", sans-serif;
+    position: relative;
+    width: 400px;
+    height: 500px;
+    font-weight: lighter;
+    background: rgba(153, 243, 250, 0.97);
+  }
+  
+
+  .card{
+    position:absolute;
+    width: 545px;
+    height: 50vh;
+    left: 70px;
+    top: 30px;
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    padding: 0%;
+    margin: 0%;
+    
+    
+  
+  }
+  
+
+  .card form p {
+    font-size: 16px;
+    text-align: left;
+    color: rgb(0, 0, 0);
+   
+    
+  }
+  
+
+  .background-image {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-image: url('image/citransco 1 pic.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.3;
+    transform: rotate(0.07deg);
+  }
+ 
+  .background-logo {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 500px;
+    top: 50px;
+    background-image: url('image/Untitled-3.png');
+   
+  }
+  
+  p::first-line {
+    color: rgb(0, 0, 0);
+    font-weight: light;
+    
+   
+  }
+/* for a CITRANSCO,MPC*/
+  .typewriter {
+    position: absolute;
+    width: 200px;
+    height: 70px;
+    left: 800px;
+    top: 294px;
+    text-align: center;
+  
+    
+  }
+  
+  .typewriter h1 {
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    overflow: hidden;
+    border-left: .15em solid rgb(0, 0, 0);
+    white-space: nowrap;
+    font-weight: bold;
+    font-size:60px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0);
+    margin: 0;
+    letter-spacing: .15em;
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret .5s step-end infinite;
+    z-index: -1;
+    display: inline-block; /* Adds a block-level display to the inline h1 element */
+  }
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    100% { border-color: rgb(0, 0, 0) }
+  }
+/* for a Carwash */
+  .typewriter-C {
+    position: absolute;
+    width: 364px;
+    height: 70px;
+    left: 930px;
+    top: 351px;
+    text-align: center;
+    
+    
+  }
+
+  .typewriter-C h1 {
+    color: #00daea;
+    font-family: "Open Sans", sans-serif;
+    overflow: hidden;
+    border-left: .15em solid rgb(23, 243, 255);
+    white-space: nowrap;
+    margin: 0;
+    font-weight: bold;
+    font-size:60px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0);
+    letter-spacing: .15em;
+    animation: 
+      typing 4.5s steps(30, end),
+      blink-caret .5s step-end infinite;
+    z-index: -1;
+    display: inline-block; /* Adds a block-level display to the inline h1 element */
+  }
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    100% { border-color: rgb(0, 0, 0) }
+  }
+  
+  .typewriter-D {
+    position: absolute;
+    height: 160px;
+    width: 475px;
+    left: 872px;
+    top: 540px;
+    
+  }
+  
+  .typewriter-D h1 {
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-size: 45;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0);
+    margin: 0;
+    text-align: center;
+}
